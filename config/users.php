@@ -141,7 +141,6 @@ $config = [
             'Form',
         ],
         'authorize' => [
-            'CakeDC/Auth.Superuser',
             'CakeDC/Auth.SimpleRbac',
         ],
     ],
