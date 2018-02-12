@@ -142,6 +142,7 @@ $config = [
         ],
         'authorize' => [
             'CakeDC/Auth.Superuser',
+            'CakeDC/Auth.SimpleRbac',
         ],
     ],
     'OAuth' => [
