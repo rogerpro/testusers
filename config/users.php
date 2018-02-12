@@ -137,7 +137,6 @@ $config = [
             'all' => [
                 'finder' => 'auth',
             ],
-            'CakeDC/Auth.ApiKey',
             'CakeDC/Auth.RememberMe',
             'Form',
         ],
