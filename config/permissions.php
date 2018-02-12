@@ -88,5 +88,10 @@ return [
             'controller' => 'Pages',
             'action' => 'display',
         ],
+        [
+            'role' => 'user',
+            'controller' => 'Things',
+            'action' => ['index', 'view', 'add'],
+        ],
     ]
 ];
