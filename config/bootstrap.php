@@ -234,3 +234,6 @@ Configure::write('Auth.authenticate', [
 Configure::write('Auth.authorize', [
     'CakeDC/Auth.SimpleRbac'
 ]);
+
+//Configure::write('Auth.checkAuthIn', 'Controller.initialize');
+//dd(Configure::read('Auth.checkAuthIn'));
