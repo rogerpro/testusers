@@ -222,3 +222,15 @@ if (Configure::read('debug')) {
 }
 
 Plugin::load('CakeDC/Users', ['routes' => true, 'bootstrap' => true]);
+
+Configure::write('Auth.authenticate', [
+    'all' => [
+        'finder' => 'auth',
+    ],
+    'CakeDC/Auth.RememberMe',
+    'Form',
+]);
+
+Configure::write('Auth.authorize', [
+    'CakeDC/Auth.SimpleRbac'
+]);
